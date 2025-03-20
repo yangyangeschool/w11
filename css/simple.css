@@ -752,3 +752,8 @@ sub {
     white-space: pre-wrap;
   }
 }
+
+
+del {
+  color: red;
+}

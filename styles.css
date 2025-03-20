@@ -1,0 +1,59 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0e4a5;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+header nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+section {
+    padding: 2rem;
+    text-align: center;
+}
+
+
+nav a {
+    text-decoration: none; /* 移除底線 */
+    color: black;
+    padding: 10px 15px;
+    display: inline-block;
+    transition: color 0.3s, background-color 0.3s; /* 平滑過渡 */
+}
+
+nav a:hover {
+    color: white; /* 文字變白 */
+    background-color: black; /* 背景變黑 */
+    border-radius: 5px; /* 圓角 */
+}
